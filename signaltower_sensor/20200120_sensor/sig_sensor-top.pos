@@ -1,0 +1,8 @@
+### Module positions - created on 2020/01/17 18:22:50 ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                     Package                  PosX       PosY       Rot  Side
+J1        5051100892_FFC-FPC_in   FFC-FPC_5051100892   135.6850   -83.0000   90.0000  top
+J2        5051100892_FFC-FPC_out  FFC-FPC_5051100892   172.1350   -82.8900  270.0000  top
+## End

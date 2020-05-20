@@ -1,0 +1,8 @@
+### Module positions - created on 2019/11/11 14:12:29 ###
+### Printed by Pcbnew version pcbnew (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                     Package                  PosX       PosY       Rot  Side
+J1        5051100892_FFC-FPC_in   FFC-FPC_5051100892   135.6850   -83.0000   90.0000  top
+J2        5051100892_FFC-FPC_out  FFC-FPC_5051100892   172.1350   -82.8900  270.0000  top
+## End

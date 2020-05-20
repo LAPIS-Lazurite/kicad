@@ -1,0 +1,10 @@
+### Module positions - created on 2019/11/11 14:12:29 ###
+### Printed by Pcbnew version pcbnew (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                 PosX       PosY       Rot  Side
+C1        0.1uF/10V  C_0201_0603Metric  -152.7640   -82.5340  180.0000  bottom
+C2        1uF/10V    C_0201_0603Metric  -156.3860   -83.0420    0.0000  bottom
+R1        6.8k       R_0402_1005Metric  -156.6400   -82.0260    0.0000  bottom
+U1        BH1620FVC  wsof5              -155.1160   -83.5500  270.0000  bottom
+## End

@@ -1,0 +1,16 @@
+### Module positions - created on 2020/01/21 8:25:07 ###
+### Printed by Pcbnew version pcbnew (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                         Package                       PosX       PosY       Rot  Side
+C1        10uF/50V                    C_1210_3225Metric         106.4260   -79.1240   90.0000  top
+C2        10uF/50V                    C_1210_3225Metric         130.8100   -79.5020   90.0000  top
+D1        Diodex2_RRE04EA4D           Diode_SOT-25T             112.0140   -91.1860    0.0000  top
+J1        uUSBconecter_ZX62R-B-5P     USB_B_hirose_ZX62R-B-5P    92.9000   -92.9120  270.0000  top
+J3        5051100892_FFC-FPCconecter  FFC-FPC_5051100892         93.7430   -63.9960   90.0000  top
+R1        100k                        R_0402_1005Metric         108.4580   -87.1220  270.0000  top
+R2        100k                        R_0402_1005Metric          98.3210   -94.2340    0.0000  top
+U1        BD50C0AWFP                  LDO_TO252-5               113.5380   -84.2280    0.0000  top
+U2        RK7002BMT-116               ROHM_MOSFET_SOT-23         98.8060   -92.3780    0.0000  top
+U3        Lazurite_920J               920J                      149.6060   -66.5480  180.0000  top
+## End
