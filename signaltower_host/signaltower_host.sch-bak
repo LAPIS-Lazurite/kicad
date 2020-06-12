@@ -266,6 +266,19 @@ $EndComp
 Wire Wire Line
 	3350 2750 3450 2750
 Wire Wire Line
+	8450 3150 7850 3150
+$Comp
+L power:GND #PWR0112
+U 1 1 5DC7D615
+P 8450 3750
+F 0 "#PWR0112" H 8450 3500 50  0001 C CNN
+F 1 "GND" H 8455 3577 50  0000 C CNN
+F 2 "" H 8450 3750 50  0001 C CNN
+F 3 "" H 8450 3750 50  0001 C CNN
+	1    8450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
 	7250 2850 7250 2650
 Wire Wire Line
 	7250 2650 7300 2650
@@ -545,7 +558,32 @@ $EndComp
 Wire Wire Line
 	7850 3100 8550 3100
 Wire Wire Line
+	8450 3150 8450 3600
+Wire Wire Line
+	8550 3600 8450 3600
+Connection ~ 8450 3600
+Wire Wire Line
+	8450 3600 8450 3750
+Wire Wire Line
+	7850 3200 8550 3200
+Wire Wire Line
+	7850 3250 8250 3250
+Wire Wire Line
+	8250 3250 8250 3300
+Wire Wire Line
+	8250 3300 8550 3300
+Wire Wire Line
+	7850 3300 8200 3300
+Wire Wire Line
+	8200 3300 8200 3400
+Wire Wire Line
+	8200 3400 8550 3400
+Wire Wire Line
 	7850 3350 8150 3350
+Wire Wire Line
+	8150 3350 8150 3500
+Wire Wire Line
+	8150 3500 8550 3500
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EEE2191
@@ -590,30 +628,4 @@ F 3 "~" H 10150 1800 50  0001 C CNN
 	1    10150 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7850 3150 8550 3150
-Wire Wire Line
-	8550 3150 8550 3200
-Wire Wire Line
-	7850 3200 8450 3200
-Wire Wire Line
-	8450 3200 8450 3300
-Wire Wire Line
-	8450 3300 8550 3300
-Wire Wire Line
-	8550 3400 8350 3400
-Wire Wire Line
-	8350 3400 8350 3250
-Wire Wire Line
-	7850 3250 8350 3250
-Wire Wire Line
-	8550 3500 8250 3500
-Wire Wire Line
-	8250 3500 8250 3300
-Wire Wire Line
-	7850 3300 8250 3300
-Wire Wire Line
-	8550 3600 8150 3600
-Wire Wire Line
-	8150 3350 8150 3600
 $EndSCHEMATC

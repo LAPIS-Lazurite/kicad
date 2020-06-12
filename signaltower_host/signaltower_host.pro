@@ -1,4 +1,4 @@
-update=2020/01/17 17:22:59
+update=2020年06月10日 水曜日 19:43:06
 version=1
 last_client=kicad
 [general]
@@ -18,7 +18,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
@@ -39,7 +39,9 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.2
-TrackWidth2=0.5
+TrackWidth2=0.35
+TrackWidth3=0.5
+TrackWidth4=1
 ViaDiameter1=0.6
 ViaDrill1=0.3
 dPairWidth1=0.2
