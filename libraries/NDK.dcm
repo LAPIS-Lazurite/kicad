@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NX2016S
+F https://www.ndk.com/jp/products/search/crystal/1190853_1442.html
+$ENDCMP
+#
+$CMP WFD79C0925FG
+F https://www.ndk.com/jp/products/search/saw/1190057_1480.html
+$ENDCMP
+#
+#End Doc Library
