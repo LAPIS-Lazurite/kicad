@@ -8,4 +8,8 @@ $CMP ML7396D
 F https://www.lapis-semi.com/jp/semicon/telecom/telecom-product.php?PartNo=ML7396D
 $ENDCMP
 #
+$CMP PTZ
+F https://www.rohm.co.jp/products/diodes/zener-diodes/automotive/ptztf6.2b-product
+$ENDCMP
+#
 #End Doc Library

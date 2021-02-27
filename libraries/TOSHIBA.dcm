@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC7SZ00FU
+F file:///Users/naotakasaito/Downloads/TC7SZ32FU_datasheet_ja_20170517.pdf
+$ENDCMP
+#
+$CMP TC7SZ04FU
+F file:///Users/naotakasaito/Downloads/TC7SZ32FU_datasheet_ja_20170517.pdf
+$ENDCMP
+#
+$CMP TC7SZ08FU
+F file:///Users/naotakasaito/Downloads/TC7SZ32FU_datasheet_ja_20170517.pdf
+$ENDCMP
+#
+$CMP TC7SZ32FU
+F file:///Users/naotakasaito/Downloads/TC7SZ32FU_datasheet_ja_20170517.pdf
+$ENDCMP
+#
+#End Doc Library

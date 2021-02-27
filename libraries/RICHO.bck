@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP R3114x
+F https://www.n-redc.co.jp/ja/products/reset-voltage-detector/
+$ENDCMP
+#
+$CMP R3114x_copy
+F https://www.n-redc.co.jp/ja/products/reset-voltage-detector/
+$ENDCMP
+#
+$CMP R3116x
+F https://www.n-redc.co.jp/ja/products/reset-voltage-detector/
+$ENDCMP
+#
+#End Doc Library

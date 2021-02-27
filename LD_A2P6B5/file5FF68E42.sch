@@ -1,0 +1,1050 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date "2020-12-13"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB116A
+P 1650 2900
+AR Path="/5FFB116A" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB116A" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB116A" Ref="U16"  Part="1" 
+F 0 "U16" H 1833 2946 50  0000 L CNN
+F 1 "RK7002BMT-116" H 1833 2855 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 1675 2950 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 1675 2950 50  0001 C CNN
+	1    1650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1170
+P 1750 2150
+AR Path="/5FE37108/5FFB1170" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1170" Ref="R25"  Part="1" 
+F 0 "R25" H 1820 2196 50  0000 L CNN
+F 1 "100k" H 1820 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1680 2150 50  0001 C CNN
+F 3 "~" H 1750 2150 50  0001 C CNN
+	1    1750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1176
+P 2250 2550
+AR Path="/5FE37108/5FFB1176" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1176" Ref="R27"  Part="1" 
+F 0 "R27" H 2320 2596 50  0000 L CNN
+F 1 "1k" H 2320 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2180 2550 50  0001 C CNN
+F 3 "~" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB117C
+P 1750 3300
+AR Path="/5FE37108/5FFB117C" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB117C" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 1750 3050 50  0001 C CNN
+F 1 "GND" H 1755 3127 50  0000 C CNN
+F 2 "" H 1750 3300 50  0001 C CNN
+F 3 "" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290 U?
+U 1 1 5FFB1182
+P 4100 2250
+AR Path="/5FE37108/5FFB1182" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1182" Ref="U20"  Part="1" 
+F 0 "U20" H 4100 2575 50  0000 C CNN
+F 1 "TLP290" H 4100 2484 50  0000 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 3250 2050 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290" H 4125 2250 50  0001 L CNN
+	1    4100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3300 1750 3150
+Wire Wire Line
+	1750 2650 1750 2600
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFB118A
+P 1750 1450
+AR Path="/5FE37108/5FFB118A" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB118A" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 1750 1300 50  0001 C CNN
+F 1 "+5V" H 1765 1623 50  0000 C CNN
+F 2 "" H 1750 1450 50  0001 C CNN
+F 3 "" H 1750 1450 50  0001 C CNN
+	1    1750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2000 1750 1800
+Wire Wire Line
+	1750 1800 2250 1800
+Wire Wire Line
+	2250 1800 2250 2000
+Connection ~ 1750 1800
+Wire Wire Line
+	1750 1800 1750 1450
+$Comp
+L Device:R R?
+U 1 1 5FFB1195
+P 1250 3050
+AR Path="/5FE37108/5FFB1195" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1195" Ref="R23"  Part="1" 
+F 0 "R23" H 1320 3096 50  0000 L CNN
+F 1 "100k" H 1320 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 3050 50  0001 C CNN
+F 3 "~" H 1250 3050 50  0001 C CNN
+	1    1250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB119B
+P 1250 3300
+AR Path="/5FE37108/5FFB119B" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB119B" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 1250 3050 50  0001 C CNN
+F 1 "GND" H 1255 3127 50  0000 C CNN
+F 2 "" H 1250 3300 50  0001 C CNN
+F 3 "" H 1250 3300 50  0001 C CNN
+	1    1250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3200 2550 2900
+Wire Wire Line
+	1250 3300 1250 3200
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFB11A8
+P 4450 1500
+AR Path="/5FE37108/5FFB11A8" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB11A8" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 4450 1350 50  0001 C CNN
+F 1 "+3.3V" H 4465 1673 50  0000 C CNN
+F 2 "" H 4450 1500 50  0001 C CNN
+F 3 "" H 4450 1500 50  0001 C CNN
+	1    4450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB11AE
+P 4450 1700
+AR Path="/5FE37108/5FFB11AE" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB11AE" Ref="R30"  Part="1" 
+F 0 "R30" H 4520 1746 50  0000 L CNN
+F 1 "1.3k" H 4520 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 1700 50  0001 C CNN
+F 3 "~" H 4450 1700 50  0001 C CNN
+	1    4450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB11B4
+P 4450 3300
+AR Path="/5FE37108/5FFB11B4" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB11B4" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 4450 3050 50  0001 C CNN
+F 1 "GND" H 4455 3127 50  0000 C CNN
+F 2 "" H 4450 3300 50  0001 C CNN
+F 3 "" H 4450 3300 50  0001 C CNN
+	1    4450 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2900 2600 2900
+Wire Wire Line
+	3600 1750 3600 1500
+$Comp
+L power:+24V #PWR?
+U 1 1 5FFB11C4
+P 3600 1500
+AR Path="/5FFB11C4" Ref="#PWR?"  Part="1" 
+AR Path="/5FE37108/5FFB11C4" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB11C4" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 3600 1350 50  0001 C CNN
+F 1 "+24V" H 3615 1673 50  0000 C CNN
+F 2 "" H 3600 1500 50  0001 C CNN
+F 3 "" H 3600 1500 50  0001 C CNN
+	1    3600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2650 2900 2500
+Wire Wire Line
+	2900 3150 2900 3300
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB11CC
+P 2800 2900
+AR Path="/5FFB11CC" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB11CC" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB11CC" Ref="U18"  Part="1" 
+F 0 "U18" H 2983 2946 50  0000 L CNN
+F 1 "RK7002BMT-116" H 2983 2855 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 2825 2950 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 2825 2950 50  0001 C CNN
+	1    2800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB11D2
+P 2900 3300
+AR Path="/5FE37108/5FFB11D2" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB11D2" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 2900 3050 50  0001 C CNN
+F 1 "GND" H 2905 3127 50  0000 C CNN
+F 2 "" H 2900 3300 50  0001 C CNN
+F 3 "" H 2900 3300 50  0001 C CNN
+	1    2900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB11D8
+P 3600 1900
+AR Path="/5FE37108/5FFB11D8" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB11D8" Ref="R28"  Part="1" 
+F 0 "R28" H 3670 1946 50  0000 L CNN
+F 1 "3.3k" H 3670 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3530 1900 50  0001 C CNN
+F 3 "~" H 3600 1900 50  0001 C CNN
+	1    3600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_PMOS_GSD Q?
+U 1 1 5FFB11E0
+P 2150 2200
+AR Path="/5FE37108/5FFB11E0" Ref="Q?"  Part="1" 
+AR Path="/5FF68E43/5FFB11E0" Ref="Q5"  Part="1" 
+F 0 "Q5" H 2355 2154 50  0000 L CNN
+F 1 "RQ5C030TP" H 2355 2245 50  0000 L CNN
+F 2 "ROHM:SOT-346T" H 2350 2300 50  0001 C CNN
+F 3 "https://fscdn.rohm.com/jp/products/databook/datasheet-nrnd/discrete/transistor/mosfet/rtr030p02-j.pdf" H 2150 2200 50  0001 C CNN
+	1    2150 2200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1950 2600 1750 2600
+Connection ~ 1750 2600
+Wire Wire Line
+	1750 2600 1750 2300
+Wire Wire Line
+	2900 2500 3600 2500
+Wire Wire Line
+	3600 2050 3600 2150
+Wire Wire Line
+	3600 2150 3800 2150
+Wire Wire Line
+	3800 2350 3600 2350
+Wire Wire Line
+	3600 2350 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 4800 2500
+Wire Wire Line
+	4450 1500 4450 1550
+Wire Wire Line
+	4450 1850 4450 2150
+Wire Wire Line
+	4450 2150 4400 2150
+Wire Wire Line
+	4450 2150 4800 2150
+Connection ~ 4450 2150
+Wire Wire Line
+	4400 2350 4450 2350
+Wire Wire Line
+	4450 2350 4450 3300
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB1200
+P 1650 5400
+AR Path="/5FFB1200" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB1200" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1200" Ref="U17"  Part="1" 
+F 0 "U17" H 1833 5446 50  0000 L CNN
+F 1 "RK7002BMT-116" H 1833 5355 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 1675 5450 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 1675 5450 50  0001 C CNN
+	1    1650 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1206
+P 1750 4650
+AR Path="/5FE37108/5FFB1206" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1206" Ref="R26"  Part="1" 
+F 0 "R26" H 1820 4696 50  0000 L CNN
+F 1 "100k" H 1820 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1680 4650 50  0001 C CNN
+F 3 "~" H 1750 4650 50  0001 C CNN
+	1    1750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB1212
+P 1750 5800
+AR Path="/5FE37108/5FFB1212" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1212" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 1750 5550 50  0001 C CNN
+F 1 "GND" H 1755 5627 50  0000 C CNN
+F 2 "" H 1750 5800 50  0001 C CNN
+F 3 "" H 1750 5800 50  0001 C CNN
+	1    1750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290 U?
+U 1 1 5FFB1218
+P 4100 4750
+AR Path="/5FE37108/5FFB1218" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1218" Ref="U21"  Part="1" 
+F 0 "U21" H 4100 5075 50  0000 C CNN
+F 1 "TLP290" H 4100 4984 50  0000 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 3250 4550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290" H 4125 4750 50  0001 L CNN
+	1    4100 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5800 1750 5650
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFB1220
+P 1750 3950
+AR Path="/5FE37108/5FFB1220" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1220" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 1750 3800 50  0001 C CNN
+F 1 "+5V" H 1765 4123 50  0000 C CNN
+F 2 "" H 1750 3950 50  0001 C CNN
+F 3 "" H 1750 3950 50  0001 C CNN
+	1    1750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB122B
+P 1250 5550
+AR Path="/5FE37108/5FFB122B" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB122B" Ref="R24"  Part="1" 
+F 0 "R24" H 1320 5596 50  0000 L CNN
+F 1 "100k" H 1320 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1180 5550 50  0001 C CNN
+F 3 "~" H 1250 5550 50  0001 C CNN
+	1    1250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB1231
+P 1250 5800
+AR Path="/5FE37108/5FFB1231" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1231" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 1250 5550 50  0001 C CNN
+F 1 "GND" H 1255 5627 50  0000 C CNN
+F 2 "" H 1250 5800 50  0001 C CNN
+F 3 "" H 1250 5800 50  0001 C CNN
+	1    1250 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 5400 1400 5400
+Wire Wire Line
+	2550 5700 2550 5400
+Wire Wire Line
+	1250 5800 1250 5700
+Wire Wire Line
+	1050 5400 1250 5400
+Connection ~ 1250 5400
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFB123E
+P 4450 4000
+AR Path="/5FE37108/5FFB123E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB123E" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 4450 3850 50  0001 C CNN
+F 1 "+3.3V" H 4465 4173 50  0000 C CNN
+F 2 "" H 4450 4000 50  0001 C CNN
+F 3 "" H 4450 4000 50  0001 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1244
+P 4450 4200
+AR Path="/5FE37108/5FFB1244" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1244" Ref="R31"  Part="1" 
+F 0 "R31" H 4520 4246 50  0000 L CNN
+F 1 "1.3k" H 4520 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4380 4200 50  0001 C CNN
+F 3 "~" H 4450 4200 50  0001 C CNN
+	1    4450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB124A
+P 4450 5800
+AR Path="/5FE37108/5FFB124A" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB124A" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 4450 5550 50  0001 C CNN
+F 1 "GND" H 4455 5627 50  0000 C CNN
+F 2 "" H 4450 5800 50  0001 C CNN
+F 3 "" H 4450 5800 50  0001 C CNN
+	1    4450 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5400 2600 5400
+Wire Wire Line
+	3600 4250 3600 4000
+$Comp
+L power:+24V #PWR?
+U 1 1 5FFB125A
+P 3600 4000
+AR Path="/5FFB125A" Ref="#PWR?"  Part="1" 
+AR Path="/5FE37108/5FFB125A" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB125A" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 3600 3850 50  0001 C CNN
+F 1 "+24V" H 3615 4173 50  0000 C CNN
+F 2 "" H 3600 4000 50  0001 C CNN
+F 3 "" H 3600 4000 50  0001 C CNN
+	1    3600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5150 2900 5000
+Wire Wire Line
+	2900 5650 2900 5800
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB1262
+P 2800 5400
+AR Path="/5FFB1262" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB1262" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1262" Ref="U19"  Part="1" 
+F 0 "U19" H 2983 5446 50  0000 L CNN
+F 1 "RK7002BMT-116" H 2983 5355 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 2825 5450 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 2825 5450 50  0001 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB1268
+P 2900 5800
+AR Path="/5FE37108/5FFB1268" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1268" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 2900 5550 50  0001 C CNN
+F 1 "GND" H 2905 5627 50  0000 C CNN
+F 2 "" H 2900 5800 50  0001 C CNN
+F 3 "" H 2900 5800 50  0001 C CNN
+	1    2900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB126E
+P 3600 4400
+AR Path="/5FE37108/5FFB126E" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB126E" Ref="R29"  Part="1" 
+F 0 "R29" H 3670 4446 50  0000 L CNN
+F 1 "3.3k" H 3670 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3530 4400 50  0001 C CNN
+F 3 "~" H 3600 4400 50  0001 C CNN
+	1    3600 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5000 3600 5000
+Wire Wire Line
+	3600 4550 3600 4650
+Wire Wire Line
+	3600 4650 3800 4650
+Wire Wire Line
+	3800 4850 3600 4850
+Wire Wire Line
+	3600 4850 3600 5000
+Connection ~ 3600 5000
+Wire Wire Line
+	3600 5000 4800 5000
+Wire Wire Line
+	4450 4000 4450 4050
+Wire Wire Line
+	4450 4350 4450 4650
+Wire Wire Line
+	4450 4650 4400 4650
+Wire Wire Line
+	4450 4650 4800 4650
+Connection ~ 4450 4650
+Wire Wire Line
+	4400 4850 4450 4850
+Wire Wire Line
+	4450 4850 4450 5800
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB1296
+P 6900 3050
+AR Path="/5FFB1296" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB1296" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1296" Ref="U22"  Part="1" 
+F 0 "U22" H 7083 3096 50  0000 L CNN
+F 1 "RK7002BMT-116" H 7083 3005 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 6925 3100 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 6925 3100 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB129C
+P 7000 2300
+AR Path="/5FE37108/5FFB129C" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB129C" Ref="R34"  Part="1" 
+F 0 "R34" H 7070 2346 50  0000 L CNN
+F 1 "100k" H 7070 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB12A8
+P 7000 3450
+AR Path="/5FE37108/5FFB12A8" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12A8" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 7000 3200 50  0001 C CNN
+F 1 "GND" H 7005 3277 50  0000 C CNN
+F 2 "" H 7000 3450 50  0001 C CNN
+F 3 "" H 7000 3450 50  0001 C CNN
+	1    7000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290 U?
+U 1 1 5FFB12AE
+P 9350 2400
+AR Path="/5FE37108/5FFB12AE" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB12AE" Ref="U26"  Part="1" 
+F 0 "U26" H 9350 2725 50  0000 C CNN
+F 1 "TLP290" H 9350 2634 50  0000 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 8500 2200 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290" H 9375 2400 50  0001 L CNN
+	1    9350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3450 7000 3300
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFB12B6
+P 7000 1600
+AR Path="/5FE37108/5FFB12B6" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12B6" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 7000 1450 50  0001 C CNN
+F 1 "+5V" H 7015 1773 50  0000 C CNN
+F 2 "" H 7000 1600 50  0001 C CNN
+F 3 "" H 7000 1600 50  0001 C CNN
+	1    7000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB12C1
+P 6500 3200
+AR Path="/5FE37108/5FFB12C1" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB12C1" Ref="R32"  Part="1" 
+F 0 "R32" H 6570 3246 50  0000 L CNN
+F 1 "100k" H 6570 3155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 3200 50  0001 C CNN
+F 3 "~" H 6500 3200 50  0001 C CNN
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB12C7
+P 6500 3450
+AR Path="/5FE37108/5FFB12C7" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12C7" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 6500 3200 50  0001 C CNN
+F 1 "GND" H 6505 3277 50  0000 C CNN
+F 2 "" H 6500 3450 50  0001 C CNN
+F 3 "" H 6500 3450 50  0001 C CNN
+	1    6500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3050 6650 3050
+Wire Wire Line
+	7800 3350 7800 3050
+Wire Wire Line
+	6500 3450 6500 3350
+Wire Wire Line
+	6300 3050 6500 3050
+Connection ~ 6500 3050
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFB12D4
+P 9700 1650
+AR Path="/5FE37108/5FFB12D4" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12D4" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 9700 1500 50  0001 C CNN
+F 1 "+3.3V" H 9715 1823 50  0000 C CNN
+F 2 "" H 9700 1650 50  0001 C CNN
+F 3 "" H 9700 1650 50  0001 C CNN
+	1    9700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB12DA
+P 9700 1850
+AR Path="/5FE37108/5FFB12DA" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB12DA" Ref="R38"  Part="1" 
+F 0 "R38" H 9770 1896 50  0000 L CNN
+F 1 "1.3k" H 9770 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9630 1850 50  0001 C CNN
+F 3 "~" H 9700 1850 50  0001 C CNN
+	1    9700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB12E0
+P 9700 3450
+AR Path="/5FE37108/5FFB12E0" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12E0" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 9700 3200 50  0001 C CNN
+F 1 "GND" H 9705 3277 50  0000 C CNN
+F 2 "" H 9700 3450 50  0001 C CNN
+F 3 "" H 9700 3450 50  0001 C CNN
+	1    9700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3050 7850 3050
+Wire Wire Line
+	8850 1900 8850 1650
+$Comp
+L power:+24V #PWR?
+U 1 1 5FFB12F0
+P 8850 1650
+AR Path="/5FFB12F0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE37108/5FFB12F0" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12F0" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 8850 1500 50  0001 C CNN
+F 1 "+24V" H 8865 1823 50  0000 C CNN
+F 2 "" H 8850 1650 50  0001 C CNN
+F 3 "" H 8850 1650 50  0001 C CNN
+	1    8850 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2800 8150 2650
+Wire Wire Line
+	8150 3300 8150 3450
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB12F8
+P 8050 3050
+AR Path="/5FFB12F8" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB12F8" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB12F8" Ref="U24"  Part="1" 
+F 0 "U24" H 8233 3096 50  0000 L CNN
+F 1 "RK7002BMT-116" H 8233 3005 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 8075 3100 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 8075 3100 50  0001 C CNN
+	1    8050 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB12FE
+P 8150 3450
+AR Path="/5FE37108/5FFB12FE" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB12FE" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 8150 3200 50  0001 C CNN
+F 1 "GND" H 8155 3277 50  0000 C CNN
+F 2 "" H 8150 3450 50  0001 C CNN
+F 3 "" H 8150 3450 50  0001 C CNN
+	1    8150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1304
+P 8850 2050
+AR Path="/5FE37108/5FFB1304" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1304" Ref="R36"  Part="1" 
+F 0 "R36" H 8920 2096 50  0000 L CNN
+F 1 "3.3k" H 8920 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8780 2050 50  0001 C CNN
+F 3 "~" H 8850 2050 50  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2650 8850 2650
+Wire Wire Line
+	8850 2200 8850 2300
+Wire Wire Line
+	8850 2300 9050 2300
+Wire Wire Line
+	9050 2500 8850 2500
+Wire Wire Line
+	8850 2500 8850 2650
+Connection ~ 8850 2650
+Wire Wire Line
+	8850 2650 10050 2650
+Wire Wire Line
+	9700 1650 9700 1700
+Wire Wire Line
+	9700 2000 9700 2300
+Wire Wire Line
+	9700 2300 9650 2300
+Wire Wire Line
+	9700 2300 10050 2300
+Connection ~ 9700 2300
+Wire Wire Line
+	9650 2500 9700 2500
+Wire Wire Line
+	9700 2500 9700 3450
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB132C
+P 6900 5650
+AR Path="/5FFB132C" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB132C" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB132C" Ref="U23"  Part="1" 
+F 0 "U23" H 7083 5696 50  0000 L CNN
+F 1 "RK7002BMT-116" H 7083 5605 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 6925 5700 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 6925 5700 50  0001 C CNN
+	1    6900 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1332
+P 7000 4900
+AR Path="/5FE37108/5FFB1332" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1332" Ref="R35"  Part="1" 
+F 0 "R35" H 7070 4946 50  0000 L CNN
+F 1 "100k" H 7070 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 4900 50  0001 C CNN
+F 3 "~" H 7000 4900 50  0001 C CNN
+	1    7000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB133E
+P 7000 6050
+AR Path="/5FE37108/5FFB133E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB133E" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 7000 5800 50  0001 C CNN
+F 1 "GND" H 7005 5877 50  0000 C CNN
+F 2 "" H 7000 6050 50  0001 C CNN
+F 3 "" H 7000 6050 50  0001 C CNN
+	1    7000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290 U?
+U 1 1 5FFB1344
+P 9350 5000
+AR Path="/5FE37108/5FFB1344" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB1344" Ref="U27"  Part="1" 
+F 0 "U27" H 9350 5325 50  0000 C CNN
+F 1 "TLP290" H 9350 5234 50  0000 C CNN
+F 2 "Package_SO:SOP-4_4.4x2.6mm_P1.27mm" H 8500 4800 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12882&prodName=TLP290" H 9375 5000 50  0001 L CNN
+	1    9350 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 6050 7000 5900
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFB134C
+P 7000 4200
+AR Path="/5FE37108/5FFB134C" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB134C" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 7000 4050 50  0001 C CNN
+F 1 "+5V" H 7015 4373 50  0000 C CNN
+F 2 "" H 7000 4200 50  0001 C CNN
+F 3 "" H 7000 4200 50  0001 C CNN
+	1    7000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1357
+P 6500 5800
+AR Path="/5FE37108/5FFB1357" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1357" Ref="R33"  Part="1" 
+F 0 "R33" H 6570 5846 50  0000 L CNN
+F 1 "100k" H 6570 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 5800 50  0001 C CNN
+F 3 "~" H 6500 5800 50  0001 C CNN
+	1    6500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB135D
+P 6500 6050
+AR Path="/5FE37108/5FFB135D" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB135D" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 6500 5800 50  0001 C CNN
+F 1 "GND" H 6505 5877 50  0000 C CNN
+F 2 "" H 6500 6050 50  0001 C CNN
+F 3 "" H 6500 6050 50  0001 C CNN
+	1    6500 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5650 6650 5650
+Wire Wire Line
+	7800 5950 7800 5650
+Wire Wire Line
+	6500 6050 6500 5950
+Wire Wire Line
+	6300 5650 6500 5650
+Connection ~ 6500 5650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FFB136A
+P 9700 4250
+AR Path="/5FE37108/5FFB136A" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB136A" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 9700 4100 50  0001 C CNN
+F 1 "+3.3V" H 9715 4423 50  0000 C CNN
+F 2 "" H 9700 4250 50  0001 C CNN
+F 3 "" H 9700 4250 50  0001 C CNN
+	1    9700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB1370
+P 9700 4450
+AR Path="/5FE37108/5FFB1370" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB1370" Ref="R39"  Part="1" 
+F 0 "R39" H 9770 4496 50  0000 L CNN
+F 1 "1.3k" H 9770 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9630 4450 50  0001 C CNN
+F 3 "~" H 9700 4450 50  0001 C CNN
+	1    9700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB1376
+P 9700 6050
+AR Path="/5FE37108/5FFB1376" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1376" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 9700 5800 50  0001 C CNN
+F 1 "GND" H 9705 5877 50  0000 C CNN
+F 2 "" H 9700 6050 50  0001 C CNN
+F 3 "" H 9700 6050 50  0001 C CNN
+	1    9700 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5650 7850 5650
+Wire Wire Line
+	8850 4500 8850 4250
+$Comp
+L power:+24V #PWR?
+U 1 1 5FFB1386
+P 8850 4250
+AR Path="/5FFB1386" Ref="#PWR?"  Part="1" 
+AR Path="/5FE37108/5FFB1386" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1386" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0173" H 8850 4100 50  0001 C CNN
+F 1 "+24V" H 8865 4423 50  0000 C CNN
+F 2 "" H 8850 4250 50  0001 C CNN
+F 3 "" H 8850 4250 50  0001 C CNN
+	1    8850 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5400 8150 5250
+Wire Wire Line
+	8150 5900 8150 6050
+$Comp
+L ROHM:RK7002BMT116 U?
+U 1 1 5FFB138E
+P 8050 5650
+AR Path="/5FFB138E" Ref="U?"  Part="1" 
+AR Path="/5FE37108/5FFB138E" Ref="U?"  Part="1" 
+AR Path="/5FF68E43/5FFB138E" Ref="U25"  Part="1" 
+F 0 "U25" H 8233 5696 50  0000 L CNN
+F 1 "RK7002BMT-116" H 8233 5605 50  0000 L CNN
+F 2 "ROHM:SOT-23" H 8075 5700 50  0001 C CNN
+F 3 "https://www.rohm.co.jp/products/mosfets/small-signal/single-nch/rk7002bm-product" H 8075 5700 50  0001 C CNN
+	1    8050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FFB1394
+P 8150 6050
+AR Path="/5FE37108/5FFB1394" Ref="#PWR?"  Part="1" 
+AR Path="/5FF68E43/5FFB1394" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 8150 5800 50  0001 C CNN
+F 1 "GND" H 8155 5877 50  0000 C CNN
+F 2 "" H 8150 6050 50  0001 C CNN
+F 3 "" H 8150 6050 50  0001 C CNN
+	1    8150 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FFB139A
+P 8850 4650
+AR Path="/5FE37108/5FFB139A" Ref="R?"  Part="1" 
+AR Path="/5FF68E43/5FFB139A" Ref="R37"  Part="1" 
+F 0 "R37" H 8920 4696 50  0000 L CNN
+F 1 "3.3k" H 8920 4605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8780 4650 50  0001 C CNN
+F 3 "~" H 8850 4650 50  0001 C CNN
+	1    8850 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5250 8850 5250
+Wire Wire Line
+	8850 4800 8850 4900
+Wire Wire Line
+	8850 4900 9050 4900
+Wire Wire Line
+	9050 5100 8850 5100
+Wire Wire Line
+	8850 5100 8850 5250
+Connection ~ 8850 5250
+Wire Wire Line
+	8850 5250 10050 5250
+Wire Wire Line
+	9700 4250 9700 4300
+Wire Wire Line
+	9700 4600 9700 4900
+Wire Wire Line
+	9700 4900 9650 4900
+Wire Wire Line
+	9700 4900 10050 4900
+Connection ~ 9700 4900
+Wire Wire Line
+	9650 5100 9700 5100
+Wire Wire Line
+	9700 5100 9700 6050
+Wire Wire Line
+	7000 1600 7000 2150
+Wire Wire Line
+	7000 2450 7000 2800
+Wire Wire Line
+	1750 3950 1750 4500
+Wire Wire Line
+	1750 4800 1750 5150
+Wire Wire Line
+	7000 4200 7000 4750
+Wire Wire Line
+	7000 5050 7000 5400
+Text GLabel 1050 2900 0    50   Input ~ 0
+PLC_OUT_5
+Connection ~ 1250 2900
+Wire Wire Line
+	1050 2900 1250 2900
+Text GLabel 2450 2800 2    50   Input ~ 0
+LED5
+Wire Wire Line
+	2450 2800 2250 2800
+Text GLabel 4800 2500 2    50   Input ~ 0
+PLC5
+Text GLabel 4800 2150 2    50   Input ~ 0
+PLC_IN_5
+Text GLabel 6300 3050 0    50   Input ~ 0
+PLC_OUT_6
+Text GLabel 10050 2650 2    50   Input ~ 0
+PLC6
+Text GLabel 10050 2300 2    50   Input ~ 0
+PLC_IN_6
+Text GLabel 6300 5650 0    50   Input ~ 0
+PLC_OUT_8
+Text GLabel 10050 5250 2    50   Input ~ 0
+PLC8
+Text GLabel 10050 4900 2    50   Input ~ 0
+PLC_IN_8
+Text GLabel 4800 5000 2    50   Input ~ 0
+PLC7
+Text GLabel 4800 4650 2    50   Input ~ 0
+PLC_IN_7
+Text GLabel 1050 5400 0    50   Input ~ 0
+PLC_OUT_7
+Wire Wire Line
+	1400 2900 1400 3200
+Wire Wire Line
+	1400 3200 2550 3200
+Wire Wire Line
+	1250 2900 1400 2900
+Connection ~ 1400 2900
+Wire Wire Line
+	1400 2900 1450 2900
+Wire Wire Line
+	1400 5400 1400 5700
+Wire Wire Line
+	1400 5700 2550 5700
+Connection ~ 1400 5400
+Wire Wire Line
+	1400 5400 1450 5400
+Wire Wire Line
+	6650 5650 6650 5950
+Wire Wire Line
+	6650 5950 7800 5950
+Connection ~ 6650 5650
+Wire Wire Line
+	6650 5650 6700 5650
+Wire Wire Line
+	6650 3050 6650 3350
+Wire Wire Line
+	6650 3350 7800 3350
+Connection ~ 6650 3050
+Wire Wire Line
+	6650 3050 6700 3050
+Wire Wire Line
+	2250 2700 2250 2800
+Wire Wire Line
+	1950 2600 1950 2200
+$EndSCHEMATC
